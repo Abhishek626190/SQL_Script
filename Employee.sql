@@ -1,0 +1,10 @@
+use company;
+select * from company.employee;
+update employee set eid=103,ename="Abhishek",elocation="Amarkantak" where eid=101;
+ select * from employee;
+select * from employee where eid=103;
+insert into employee(eid,ename,elocation) values(104,"Pratiksha","Mumbai"),(105,"Rupali","Delhi"),(106,"Vrushali","Lucknow");
+select * from employee;
+select * from employee order by eid;
+-- select * from employee order by eid desc;
+-- select * from employee where eid>103;
